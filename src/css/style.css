@@ -1,0 +1,67 @@
+/* Estilos globais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;  /* Define a família de fontes para todo o corpo da página */
+    background-color: #f4f4f4;  /* Define a cor de fundo para um cinza claro */
+    margin: 0;  /* Remove margens padrão do corpo da página */
+    display: flex;  /* Usa o modelo de layout flexível */
+    align-items: center;  /* Centraliza verticalmente os itens dentro do contêiner flexível */
+    justify-content: center;  /* Centraliza horizontalmente os itens dentro do contêiner flexível */
+    height: 100vh;  /* Define a altura da página como 100% da altura da viewport */
+}
+
+/* Estilos para o contêiner principal do formulário de login */
+.login-container {
+    background-color: #fff;  /* Define a cor de fundo para branco */
+    border-radius: 8px;  /* Adiciona borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Adiciona uma sombra leve ao contêiner */
+    padding: 20px;  /* Adiciona espaçamento interno de 20 pixels */
+    width: 300px;  /* Define a largura do contêiner */
+    text-align: center;  /* Centraliza o texto dentro do contêiner */
+}
+
+/* Estilos para o título do formulário de login dentro do contêiner */
+.login-container h2 {
+    margin-bottom: 20px;  /* Adiciona espaçamento abaixo do título */
+}
+
+/* Estilos para o grupo de entrada no formulário de login */
+.input-group {
+    margin-bottom: 20px;  /* Adiciona espaçamento abaixo de cada grupo de entrada */
+}
+
+/* Estilos para as etiquetas dentro do grupo de entrada */
+.input-group label {
+    display: block;  /* Faz com que a etiqueta seja exibida como bloco (em uma nova linha) */
+    margin-bottom: 5px;  /* Adiciona espaçamento abaixo de cada etiqueta */
+}
+
+/* Estilos para as entradas de texto dentro do grupo de entrada */
+.input-group input {
+    width: 100%;  /* Define a largura da entrada como 100% do contêiner pai */
+    padding: 8px;  /* Adiciona espaçamento interno de 8 pixels */
+    box-sizing: border-box;  /* Inclui as bordas e o preenchimento no tamanho total da largura e altura */
+    border: 1px solid #ccc;  /* Adiciona uma borda sólida com uma cor cinza claro */
+    border-radius: 4px;  /* Adiciona borda arredondada às entradas de texto */
+}
+
+/* Estilos para o botão de login */
+.login-btn {
+    background-color: #4caf50;  /* Define a cor de fundo do botão como verde */
+    color: #fff;  /* Define a cor do texto como branco */
+    padding: 10px;  /* Adiciona espaçamento interno de 10 pixels */
+    border: none;  /* Remove a borda do botão */
+    border-radius: 4px;  /* Adiciona borda arredondada ao botão */
+    cursor: pointer;  /* Altera o cursor para indicar que o botão é clicável */
+}
+
+/* Estilos para o botão de login ao passar o mouse sobre ele */
+.login-btn:hover {
+    background-color: #45a049;  /* Muda a cor de fundo quando o mouse está sobre o botão */
+}
+
+/* Estilos para o link "Esqueceu a senha?" */
+.forgot-password {
+    color: #4caf50;  /* Define a cor do texto como verde */
+    text-decoration: underline;  /* Adiciona sublinhado ao texto */
+    cursor: pointer;  /* Altera o cursor para indicar que o link é clicável */
+}

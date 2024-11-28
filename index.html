@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Configurações iniciais da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <!-- Inclusão do arquivo de estilo externo (styles.css) -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <!-- Container principal para o formulário de login -->
+    <div class="login-container">
+        <!-- Título da página -->
+        <h2>Login</h2>
+
+        <!-- Grupo de entrada para o nome de usuário -->
+        <div class="input-group">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" placeholder="Digite seu usuário">
+        </div>
+
+        <!-- Grupo de entrada para a senha -->
+        <div class="input-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" placeholder="Digite sua senha">
+        </div>
+
+        <!-- Botão de login com a chamada de função "login()" ao ser clicado -->
+        <button class="login-btn" onclick="login()">Entrar</button>
+
+        <!-- Link para recuperação de senha com a chamada de função "forgotPassword()" ao ser clicado -->
+        <p class="forgot-password" onclick="forgotPassword()">Esqueceu a senha?</p>
+    </div>
+
+    <!-- Inclusão do arquivo de script externo (script.js) -->
+    <script src="./src/js/js.js"></script>
+</body>
+
+</html>
